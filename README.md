@@ -22,20 +22,20 @@ Mam na imię Oliwia i mam już za sobą ponad rok doświadczenia w testowaniu. P
 
 ### Subtask 4
 
-1. Na czym polega ta aplikacja? Do czego służy?
+**Na czym polega ta aplikacja? Do czego służy?**
 
-  Aplikacja umożliwa:
-    - przeglądanie wskaźników, umiejętności i pozycji zawodników
-    - zarządzanie graczami, meczami 
-    - tworzenie i zarządzanie raportami.
+Aplikacja umożliwa:
+  * przeglądanie wskaźników, umiejętności i pozycji zawodników
+  * zarządzanie graczami, meczami 
+  * tworzenie i zarządzanie raportami.
 
-2. Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a?
-
-
-3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
+**Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a?**
 
 
-4. Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).
+**Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
 
-5. Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?
+**Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).**
+
+
+**Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?**
