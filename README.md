@@ -6,6 +6,7 @@
 
 ### Subtask 1
 Podczas testu udało mi się uzyskać 8 punktów :)
+
 ---
 
 ### Subtask 3
