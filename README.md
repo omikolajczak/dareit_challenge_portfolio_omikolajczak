@@ -5,7 +5,7 @@
 
 
 ### Subtask 1
-Podczas testu udało mi się uzyskać 8 punktów :)
+Podczas testu udało mi się uzyskać 8 punktów 🤔📚
 
 ---
 
@@ -33,8 +33,8 @@ Aplikacja umożliwa:
 **Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a?**
 
 Funkcjonalności aplikacji:
-  * logowanie oraz wylogowywanie
-  * zmiana języka panelu (polski, angielski)
+  * logowanie oraz wylogowywanie do/z aplikacji 
+  * zmiana języka aplikacji (polski, angielski)
   * dodawanie zawodników
   * edycja danych zawodników
   * filtrowanie oraz sortowanie listy graczy
@@ -46,7 +46,7 @@ Funkcjonalności aplikacji:
   * drukowanie
   * tworzenie raportów CVS
 
-
+Niestety nie wszystkie z wymienionych przeze mnie funkcjonalności są intuicyjne. Dodawanie meczy i raportów jest dopiero możliwe po wybraniu gracza.
 **Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
 **Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).**
