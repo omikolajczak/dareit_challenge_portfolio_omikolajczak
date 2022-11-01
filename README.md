@@ -28,24 +28,11 @@ Aplikacja umożliwa:
   * przeglądanie wskaźników, umiejętności i pozycji zawodników
   * zarządzanie graczami, meczami 
   * tworzenie i zarządzanie raportami.
-
-
-
+--
 **Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a?**
-
-
-
 
 **Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
-
-
-
 **Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).**
 
-
-
-
 **Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?**
-
-
