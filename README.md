@@ -24,10 +24,10 @@ Mam na imię Oliwia i mam już za sobą ponad rok doświadczenia w testowaniu. P
 
 1. Na czym polega ta aplikacja? Do czego służy?
 
-Aplikacja umożliwa:
- - przeglądanie wskaźników, umiejętności i pozycji zawodników
- - zarządzanie graczami, meczami 
- - tworzenie i zarządzanie raportami.
+  Aplikacja umożliwa:
+  - przeglądanie wskaźników, umiejętności i pozycji zawodników
+  - zarządzanie graczami, meczami 
+  - tworzenie i zarządzanie raportami.
 
 2. Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a?
 
