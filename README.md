@@ -29,7 +29,7 @@ Aplikacja umożliwa:
   * zarządzanie graczami, meczami 
   * tworzenie i zarządzanie raportami.
 
---
+---
 
 
 **Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a?**
