@@ -29,10 +29,23 @@ Aplikacja umożliwa:
   * zarządzanie graczami, meczami 
   * tworzenie i zarządzanie raportami.
 
----
-
 
 **Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a?**
+
+Funkcjonalności aplikacji:
+  * logowanie oraz wylogowywanie
+  * zmiana języka panelu (polski, angielski)
+  * dodawanie zawodników
+  * edycja danych zawodników
+  * filtrowanie oraz sortowanie listy graczy
+  * dodawanie meczy do konkretnego gracza 
+  * edycja meczy
+  * tworzenie zdarzeń/akcji do danego meczu (dokładny czas, czy udany, typ, dane, komentarz)
+  * tworzenie raportów graczy do danego meczu
+  * edycja raportów
+  * drukowanie
+  * tworzenie raportów CVS
+
 
 **Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
