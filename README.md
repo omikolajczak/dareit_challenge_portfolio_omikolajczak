@@ -28,6 +28,7 @@ Aplikacja umożliwa:
   * przeglądanie wskaźników, umiejętności i pozycji zawodników
   * zarządzanie graczami, meczami 
   * tworzenie i zarządzanie raportami.
+
 --
 
 
