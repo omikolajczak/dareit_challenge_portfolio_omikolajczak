@@ -1,15 +1,14 @@
 # dareit_challenge_portfolio_omikolajczak
 
 
-## Task 1
+# Task 1
 
 
-### Subtask 1
+## Subtask 1
 Podczas testu udało mi się uzyskać 8 punktów :)
 
----
 
-### Subtask 3
+## Subtask 3
 Dlaczego zdecydował_ś się na udział w challenge portfolio?
 
 Cześć :) 
@@ -18,9 +17,8 @@ Mam na imię Oliwia i mam już za sobą ponad rok doświadczenia w testowaniu. P
 
 ***Oliwia***
 
----
 
-### Subtask 4
+## Subtask 4
 
 - Na czym polega ta aplikacja? Do czego służy?
 
