@@ -33,7 +33,7 @@ Aplikacja **Scouts** umożliwa:
   * zarządzanie graczami oraz meczami 
   * tworzenie i zarządzanie raportami.
 
-------------------------------------------------
+*------------------------------------------------*
 
 _**Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a?**_
 
