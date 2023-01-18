@@ -59,7 +59,7 @@ Niestety nie wszystkie z wymienionych przeze mnie funkcjonalności są intuicyjn
 
 Przegląd zawodników, meczy oraz raportów powinnien być ujednolicony, oznacza to, że w panelu powinna znajdować się zakładka z meczami oraz raportami. Możliwość zarządzaniem meczami oraz raportami powinna być dostępna bez konieczności wyboru zawodnika (dane mecze oraz raporty są przypisane do konkretnego zawodnika, obecny jednak sposób zarządzania meczami oraz raportami jest ukryty; do danych meczy oraz raportów warto dodać dane o przypisanym użytkowniku; umożliwiłoby to wyszukiwanie wszystkich meczy oraz raportów, które byłby dostępne jak lista graczy, poprzez dane zawodnika).
 
-------------------------------------------------
+**------------------------------------------------**
 
 _**Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**_
 
@@ -68,8 +68,25 @@ Interfejs aplikacji jest prosty. Nie zawiera nie potrzebnych elementów graficzn
 
 Jak już wczesniej napisałam dostęp do zarządzania meczami oraz raportami powinnien być dostępny od razu w bocznym menu, a nie po przejściu do zakładki Zawodnicy. Takie bugi niestety sprawiają, że pomimo prostego i czytelnego interfejsu staje się on dość skomplikowany.
 
-------------------------------------------------
+**------------------------------------------------**
 
 **Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).**
+
+Już powyżej wymieniłam kilka elementów nieintuicyjnych. Poniżej cała lista:
+ * Edycja zawodników byłaby bardziej intuicyjny, gdyby odbywała się po kliknięciu button'a "Edytuj" w postaci icon'y ołówka jak w przypadku edycji meczy (obecnie jest to kliknięcie w gracza). Kliknięcie w danego zawodnika mogłoby wywołać podgląd tego zawodnika.
+ * ![dareit_tester1](https://user-images.githubusercontent.com/56199380/213309130-d7ac3708-ca4a-48cd-a721-91275b57cf15.png)
+
+ * Przegląd zawodników, meczy oraz raportów powinnien być ujednolicony, oznacza to, że w panelu powinna znajdować się zakładka z meczami oraz raportami. Możliwość zarządzaniem meczami oraz raportami powinna być dostępna bez konieczności wyboru zawodnika.
+ * ![dareit_tester2](https://user-images.githubusercontent.com/56199380/213309276-0f83d49b-98c8-49e6-a73b-cb09295f168d.png)
+
+ * Do danych meczy oraz raportów warto dodać dane o przypisanym użytkowniku. Umożliwiłoby to wyszukiwanie wszystkich meczy oraz raportów, które byłby dostępne jak lista graczy, poprzez dane zawodnika.
+ * Niektóre elementy są nieklikalne, a sprawiają wrażenie elementów klikalnych. Piszę tutaj o 4 informacjach na stronie głównej u góry strony. 
+![dareit_tester](https://user-images.githubusercontent.com/56199380/213307051-f6c06f48-5f73-42dd-add6-e85c957373ef.png)
+
+ * Brak zasygnalizowania możliwośći sortowania w zakładce Zawodnicy.
+ * ![dareit_tester3](https://user-images.githubusercontent.com/56199380/213309716-85e19ea5-bd96-4f60-98a8-95854bc48938.png)
+
+
+**------------------------------------------------**
 
 **Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?**
