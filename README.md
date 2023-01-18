@@ -91,8 +91,6 @@ Niestety (albo stety, bo jak uczyć się na aplikacji, która jest bezbłędna �
  * Po kliknięciu w "Dodaj raport" aplikacja przekierowuje mnie do zakładki Mecze. Niestety w takim wypadku dodawanie reportów jest niemożliwe.
  * Jest możliwość tłumaczenia strony na polski lub angielski. Niestety na polski nie są przetłumaczone wszystkie teskty, jak "search" w wyszukiwarce lub na stronie głównej "Dev team contact". 
  * Literówki w słowie "Aktywność" oraz "zaktualizowany". 
-
    ![dareit_tester5](https://user-images.githubusercontent.com/56199380/213312154-b425d050-37d2-469d-b335-54f681da8a5f.png)
- * 
 
 
