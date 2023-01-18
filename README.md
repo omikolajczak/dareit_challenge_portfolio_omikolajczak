@@ -33,8 +33,7 @@ Aplikacja **Scouts** umożliwa:
   * zarządzanie graczami oraz meczami 
   * tworzenie i zarządzanie raportami.
 
-
-
+------------------------------------------------
 
 _**Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a?**_
 
@@ -60,8 +59,7 @@ Niestety nie wszystkie z wymienionych przeze mnie funkcjonalności są intuicyjn
 
 Przegląd zawodników, meczy oraz raportów powinnien być ujednolicony, oznacza to, że w panelu powinna znajdować się zakładka z meczami oraz raportami. Możliwość zarządzaniem meczami oraz raportami powinna być dostępna bez konieczności wyboru zawodnika (dane mecze oraz raporty są przypisane do konkretnego zawodnika, obecny jednak sposób zarządzania meczami oraz raportami jest ukryty; do danych meczy oraz raportów warto dodać dane o przypisanym użytkowniku; umożliwiłoby to wyszukiwanie wszystkich meczy oraz raportów, które byłby dostępne jak lista graczy, poprzez dane zawodnika).
 
-
-
+------------------------------------------------
 
 _**Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**_
 
@@ -70,8 +68,7 @@ Interfejs aplikacji jest prosty. Nie zawiera nie potrzebnych elementów graficzn
 
 Jak już wczesniej napisałam dostęp do zarządzania meczami oraz raportami powinnien być dostępny od razu w bocznym menu, a nie po przejściu do zakładki Zawodnicy. Takie bugi niestety sprawiają, że pomimo prostego i czytelnego interfejsu staje się on dość skomplikowany.
 
-
-
+------------------------------------------------
 
 **Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).**
 
