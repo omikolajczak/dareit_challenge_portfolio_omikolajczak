@@ -90,7 +90,9 @@ Niestety (albo stety, bo jak uczyć się na aplikacji, która jest bezbłędna �
  * Możliwość dodania daty z wyprzedzeniem w karcie zawodnika. ![dareit_tester6](https://user-images.githubusercontent.com/56199380/213312923-9d44f37b-4fc1-43e8-b7dc-19ab97c77fd0.png)
  * Po kliknięciu w "Dodaj raport" aplikacja przekierowuje mnie do zakładki Mecze. Niestety w takim wypadku dodawanie reportów jest niemożliwe.
  * Jest możliwość tłumaczenia strony na polski lub angielski. Niestety na polski nie są przetłumaczone wszystkie teskty, jak "search" w wyszukiwarce lub na stronie głównej "Dev team contact". 
- * Literówki w słowie "Aktywność" oraz "zaktualizowany". ![dareit_tester5](https://user-images.githubusercontent.com/56199380/213312154-b425d050-37d2-469d-b335-54f681da8a5f.png)
+ * Literówki w słowie "Aktywność" oraz "zaktualizowany". 
+
+![dareit_tester5](https://user-images.githubusercontent.com/56199380/213312154-b425d050-37d2-469d-b335-54f681da8a5f.png)
  * 
 
 
