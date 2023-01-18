@@ -74,15 +74,23 @@ Jak już wczesniej napisałam dostęp do zarządzania meczami oraz raportami pow
 
 Już powyżej wymieniłam kilka elementów nieintuicyjnych. Poniżej cała lista:
  * Edycja zawodników byłaby bardziej intuicyjny, gdyby odbywała się po kliknięciu button'a "Edytuj" w postaci icon'y ołówka jak w przypadku edycji meczy (obecnie jest to kliknięcie w gracza). Kliknięcie w danego zawodnika mogłoby wywołać podgląd tego zawodnika. ![dareit_tester1](https://user-images.githubusercontent.com/56199380/213309130-d7ac3708-ca4a-48cd-a721-91275b57cf15.png)
-
  * Przegląd zawodników, meczy oraz raportów powinnien być ujednolicony, oznacza to, że w panelu powinna znajdować się zakładka z meczami oraz raportami. Możliwość zarządzaniem meczami oraz raportami powinna być dostępna bez konieczności wyboru zawodnika. ![dareit_tester2](https://user-images.githubusercontent.com/56199380/213309276-0f83d49b-98c8-49e6-a73b-cb09295f168d.png)
-
  * Do danych meczy oraz raportów warto dodać dane o przypisanym użytkowniku. Umożliwiłoby to wyszukiwanie wszystkich meczy oraz raportów, które byłby dostępne jak lista graczy, poprzez dane zawodnika.
  * Niektóre elementy są nieklikalne, a sprawiają wrażenie elementów klikalnych. Piszę tutaj o 4 informacjach na stronie głównej u góry strony. ![dareit_tester](https://user-images.githubusercontent.com/56199380/213307051-f6c06f48-5f73-42dd-add6-e85c957373ef.png)
-
  * Brak zasygnalizowania możliwośći sortowania w zakładce Zawodnicy. ![dareit_tester3](https://user-images.githubusercontent.com/56199380/213309716-85e19ea5-bd96-4f60-98a8-95854bc48938.png)
 
 
 **------------------------------------------------**
 
 **Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?**
+
+Niestety (albo stety, bo jak uczyć się na aplikacji, która jest bezbłędna 🧐 a przecież takich nie ma) w aplikacji można znaleźć kilka błędów:
+
+ * Możliwość dodania ujemnych oraz nieprawidłowych wartości (jak litery, czy wartości nielożliwe do osiągnięcia dla człowieka, np. 1000000 cm) dla wagi oraz wzrostu karcie zawodnika. ![dareit_tester4](https://user-images.githubusercontent.com/56199380/213310899-dc9f2479-e719-48ea-be74-2c86231a2d15.png)
+ * Możliwość dodania daty z wyprzedzeniem w karcie zawodnika. ![dareit_tester6](https://user-images.githubusercontent.com/56199380/213312923-9d44f37b-4fc1-43e8-b7dc-19ab97c77fd0.png)
+ * Po kliknięciu w "Dodaj raport" aplikacja przekierowuje mnie do zakładki Mecze. Niestety w takim wypadku dodawanie reportów jest niemożliwe.
+ * Jest możliwość tłumaczenia strony na polski lub angielski. Niestety na polski nie są przetłumaczone wszystkie teskty, jak "search" w wyszukiwarce lub na stronie głównej "Dev team contact". 
+ * Literówki w słowie "Aktywność" oraz "zaktualizowany". ![dareit_tester5](https://user-images.githubusercontent.com/56199380/213312154-b425d050-37d2-469d-b335-54f681da8a5f.png)
+ * 
+
+
