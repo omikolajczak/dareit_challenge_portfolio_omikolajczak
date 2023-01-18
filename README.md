@@ -6,6 +6,7 @@
 
 ### Subtask 1
 Podczas testu udało mi się uzyskać 8 punktów 🤔📚
+
 Edit: Jest to moje drugie podejście do Challeng'u i za drugim razem uzyskałam 10 punktów 😎
 
 ---
