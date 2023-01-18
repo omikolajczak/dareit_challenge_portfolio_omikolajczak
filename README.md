@@ -26,7 +26,7 @@ Zdecydowałam się na kurs DareIT, ponieważ od dłuższego czasu mogę nazwać 
 
 ### Subtask 4
 
-**Na czym polega ta aplikacja? Do czego służy?**
+_**Na czym polega ta aplikacja? Do czego służy?**_
 
 Aplikacja **Scouts** umożliwa:
   * przeglądanie wskaźników, umiejętności i pozycji graczy
