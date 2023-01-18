@@ -60,7 +60,7 @@ Przegląd zawodników, meczy oraz raportów powinnien być ujednolicony, oznacza
 
 **Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
-Interfejs aplikacji jest prosta. Nie zawiera nie potrzebnych elementów graficznych, które mogłyby przeszkodzić w analizowaniu danych oraz zarządzaniu zaowdnikami czy raportami. Wizualnie spełenia swoją podstawową funkcję i uważam, że jest to wystarczające do takiego typu aplikacji. Jednak niektóre elementy są nieklikalne, a sprawiają wrażenie elementów klikalnych. Piszę tutaj o 4 informacjach na sotrnie głównej u góry strony. 
+Interfejs aplikacji jest prosty. Nie zawiera nie potrzebnych elementów graficznych, które mogłyby przeszkodzić w analizowaniu danych oraz zarządzaniu zaowdnikami czy raportami. Wizualnie spełenia swoją podstawową funkcję i uważam, że jest to wystarczające do takiego typu aplikacji. Jednak niektóre elementy są nieklikalne, a sprawiają wrażenie elementów klikalnych. Piszę tutaj o 4 informacjach na stronie głównej u góry strony. 
 ![dareit_tester](https://user-images.githubusercontent.com/56199380/213307051-f6c06f48-5f73-42dd-add6-e85c957373ef.png)
 
 Jak już wczesniej napisałam dostęp do zarządzania meczami oraz raportami powinnien być dostępny od razu w bocznym menu, a nie po przejściu do zakładki Zawodnicy. Takie bugi niestety sprawiają, że pomimo prostego i czytelnego interfejsu staje się on dość skomplikowany.
