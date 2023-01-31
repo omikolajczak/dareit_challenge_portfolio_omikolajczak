@@ -95,3 +95,16 @@ Niestety (albo stety, bo jak uczyć się na aplikacji, która jest bezbłędna �
    ![dareit_tester5](https://user-images.githubusercontent.com/56199380/213312154-b425d050-37d2-469d-b335-54f681da8a5f.png)
 
 
+## Task 3
+
+
+### Subtask 1
+Link: https://docs.google.com/spreadsheets/d/1qHqaF7e2Y9qbkceXO6gIpf-RIlUGQxaM9w0-x0L9mjI/edit?usp=sharing
+
+
+### Subtask 2
+Link: https://docs.google.com/spreadsheets/d/1o7X_KxkY8e-0W8gAdOaPO_RpuuSmBZepUlh_sBF2XBA/edit?usp=sharing
+
+
+### Subtask 3
+Link: https://docs.google.com/spreadsheets/d/1oicgMEF2GVj3EaSkblde6prYIbHwb0Os3lnzq6vpPZM/edit?usp=sharing
