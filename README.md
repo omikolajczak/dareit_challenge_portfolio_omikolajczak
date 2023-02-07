@@ -135,7 +135,11 @@ Użytkownikiem końcowym jest osoba, która chce pracować nad oddechem, jest za
 _**Czy według Ciebie aplikacja jest user friendly?**_
 
 
+Aplikacja jest przyjazna użytkownikowi. W aplikacji wystepują poradniki, które pomagają użytkownikowi poznać aplikację oraz tłumaczy jak ją najlepiej wykorzystać do własnych celów. Użytkownik nie powinnien odczywać żadnych trudności przy kolejnych wejściach do aplikacji, dzięki dobrze opisanym button'om, przejrzystemu interfejsowi oraz spójnemu design.
+
+
 _**Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?**_
+
 
 
 _**Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?**_
