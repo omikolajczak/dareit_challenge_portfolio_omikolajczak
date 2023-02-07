@@ -118,10 +118,18 @@ Link: https://docs.google.com/spreadsheets/d/1FntW_EOexcr0Gf-0sP7NCZb7lBPrxjSey-
 Link: https://docs.google.com/spreadsheets/d/13SQTfePuOpjRnRd07Ko9EYmtvUPfGgLDwI1vPJw4jEI/edit?usp=sharing
 
 ###Subtask 3
+
+
 _**Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?**_
 
 
+Aplikacja służy do prowadzenia medytacji, afirmacji oraz relaksacji. Jest możliwość spisywania swojego samopoczycia każego dnia, kontrolowania oddechu aby zrelaksować się przed snem, wyciszyć, czy skoncentrować. Możliwe jest również zaczęcie kursu z dziedzin takich jak: uważność, medytacja czy kursy dotyczące oddechu. Applikacja zawiera artykuły oraz porady jak na przykład radzić sobie ze stresem, jak poprawić i przyjrzeć się swojemu oddechowi. Aplikacja ma na celu pomóc ludziom zwiększyć swoją swiadomość oraz pomóc radzić sobie ze stresem.
+
+
 _**Kto ma być użytkownikiem końcowym aplikacji?**_
+
+
+Użytkownikiem końcowym jest osoba, która chce pracować nad oddechem, jest zainteresowana medytacją, odczuwa potrzebę spisywania swojego samopoczucia oraz chcę doszkalać się oraz poszerzać swoją wiedzę w dziedzinie dbania o siebie i swoje zdrowie psychiczne. Jest to aplikacja dla osób na każdym poziomie zaawansowania.
 
 
 _**Czy według Ciebie aplikacja jest user friendly?**_
