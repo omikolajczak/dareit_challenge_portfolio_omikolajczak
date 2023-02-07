@@ -108,3 +108,27 @@ Link: https://docs.google.com/spreadsheets/d/1o7X_KxkY8e-0W8gAdOaPO_RpuuSmBZepUl
 
 ### Subtask 3
 Link: https://docs.google.com/spreadsheets/d/1oicgMEF2GVj3EaSkblde6prYIbHwb0Os3lnzq6vpPZM/edit?usp=sharing
+
+## Task 4
+
+###Subtask 1
+Link: https://docs.google.com/spreadsheets/d/1FntW_EOexcr0Gf-0sP7NCZb7lBPrxjSey-bGCmA46TE/edit?usp=sharing
+
+###Subtask 2
+Link: https://docs.google.com/spreadsheets/d/13SQTfePuOpjRnRd07Ko9EYmtvUPfGgLDwI1vPJw4jEI/edit?usp=sharing
+
+###Subtask 3
+_**Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?**_
+
+
+_**Kto ma być użytkownikiem końcowym aplikacji?**_
+
+
+_**Czy według Ciebie aplikacja jest user friendly?**_
+
+
+_**Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?**_
+
+
+_**Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?**_
+
