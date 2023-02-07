@@ -123,13 +123,13 @@ Link: https://docs.google.com/spreadsheets/d/13SQTfePuOpjRnRd07Ko9EYmtvUPfGgLDwI
 _**Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?**_
 
 
-Aplikacja służy do prowadzenia medytacji, afirmacji oraz relaksacji. Jest możliwość spisywania swojego samopoczycia każego dnia, kontrolowania oddechu aby zrelaksować się przed snem, wyciszyć, czy skoncentrować. Możliwe jest również zaczęcie kursu z dziedzin takich jak: uważność, medytacja czy kursy dotyczące oddechu. Applikacja zawiera artykuły oraz porady jak na przykład radzić sobie ze stresem, jak poprawić i przyjrzeć się swojemu oddechowi. Aplikacja ma na celu pomóc ludziom zwiększyć swoją swiadomość oraz pomóc radzić sobie ze stresem.
+Aplikacja służy do prowadzenia medytacji, afirmacji oraz relaksacji. Jest możliwość kontrolowania oddechu aby zrelaksować się przed snem, wyciszyć, czy skoncentrować. Możliwe jest również zaczęcie kursu z dziedzin takich jak: uważność, medytacja czy kursy dotyczące oddechu. Applikacja zawiera artykuły oraz porady jak na przykład radzić sobie ze stresem, jak poprawić i przyjrzeć się swojemu oddechowi. Aplikacja ma na celu pomóc ludziom zwiększyć swoją świadomość oraz pomóc radzić sobie ze stresem.
 
 
 _**Kto ma być użytkownikiem końcowym aplikacji?**_
 
 
-Użytkownikiem końcowym jest osoba, która chce pracować nad oddechem, jest zainteresowana medytacją, odczuwa potrzebę spisywania swojego samopoczucia oraz chcę doszkalać się oraz poszerzać swoją wiedzę w dziedzinie dbania o siebie i swoje zdrowie psychiczne. Jest to aplikacja dla osób na każdym poziomie zaawansowania.
+Użytkownikiem końcowym jest osoba, która chce pracować nad oddechem, jest zainteresowana medytacją, odczuwa potrzebę polepszenia swojego samopoczucia oraz chcę doszkalać się oraz poszerzać swoją wiedzę w dziedzinie dbania o siebie i swoje zdrowie psychiczne. Jest to aplikacja dla osób na każdym poziomie zaawansowania.
 
 
 _**Czy według Ciebie aplikacja jest user friendly?**_
@@ -141,6 +141,16 @@ Aplikacja jest przyjazna użytkownikowi. W aplikacji wystepują poradniki, któr
 _**Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?**_
 
 
+- Dodałabym możliwość logowania się za pomocą konto Google.
+- Dodałabym możliowść wyszukiwania soudtrack'ów.
+- Dodałabym jasny podział na artykuły, wyzwania oraz programy w sekcji "Odkryj".
+- Zamieniłabym kartę "Twórcy" na "Profil", aby było to jeszcze bardziej dostepne dla użytkownika.
+- Dodałabym opcję rejestru pracy nad oddechem (w które dni zostały one wykonane).
+
 
 _**Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?**_
 
+
+- Przy testowaniu aplikacji natywnych jest możliwość przetestowania aplikacji na większej ilości urządzeń. Można testować nie tylko na telefonie, ale również na tablecie z podziałem na systemu.
+- W przypadku testowania aplikacji internetowej ważny jest adres strony. Przy tesotwaniu aplikacji natywnej ważny jest pobranie aplikacji oraz numer Build.
+- Po aplikacji internetowej poruszamy się za pomocą myszki czy trackpada. Po aplikacji natywnej poruszamy się palcem.
