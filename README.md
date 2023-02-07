@@ -111,13 +111,13 @@ Link: https://docs.google.com/spreadsheets/d/1oicgMEF2GVj3EaSkblde6prYIbHwb0Os3l
 
 ## Task 4
 
-###Subtask 1
+### Subtask 1
 Link: https://docs.google.com/spreadsheets/d/1FntW_EOexcr0Gf-0sP7NCZb7lBPrxjSey-bGCmA46TE/edit?usp=sharing
 
-###Subtask 2
+### Subtask 2
 Link: https://docs.google.com/spreadsheets/d/13SQTfePuOpjRnRd07Ko9EYmtvUPfGgLDwI1vPJw4jEI/edit?usp=sharing
 
-###Subtask 3
+### Subtask 3
 
 
 _**Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?**_
