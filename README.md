@@ -109,13 +109,17 @@ Link: https://docs.google.com/spreadsheets/d/1o7X_KxkY8e-0W8gAdOaPO_RpuuSmBZepUl
 ### Subtask 3
 Link: https://docs.google.com/spreadsheets/d/1oicgMEF2GVj3EaSkblde6prYIbHwb0Os3lnzq6vpPZM/edit?usp=sharing
 
+
 ## Task 4
+
 
 ### Subtask 1
 Link: https://docs.google.com/spreadsheets/d/1FntW_EOexcr0Gf-0sP7NCZb7lBPrxjSey-bGCmA46TE/edit?usp=sharing
 
+
 ### Subtask 2
 Link: https://docs.google.com/spreadsheets/d/13SQTfePuOpjRnRd07Ko9EYmtvUPfGgLDwI1vPJw4jEI/edit?usp=sharing
+
 
 ### Subtask 3
 
@@ -154,3 +158,35 @@ _**Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a n
 - Przy testowaniu aplikacji natywnych jest możliwość przetestowania aplikacji na większej ilości urządzeń. Można testować nie tylko na telefonie, ale również na tablecie z podziałem na systemu.
 - W przypadku testowania aplikacji internetowej ważny jest adres strony. Przy tesotwaniu aplikacji natywnej ważny jest pobranie aplikacji oraz numer Build.
 - Po aplikacji internetowej poruszamy się za pomocą myszki czy trackpada. Po aplikacji natywnej poruszamy się palcem.
+
+
+## Task 5
+
+
+### Subtask 1
+
+Lista operatorów/zapytań jakich poznałam:
+
+- *SELECT* zwraca listę pół zawierających wskazane dane
+- *FROM* zwraca listę tabel zawierających pola wymienione w klauzuli SELECT
+- *ORDER BY* jest wykorzystywana do sortowania wyników
+- *ASC* używane do sortowania rosnącego
+- *DESC* używane do sortowania malejacego
+- *WHERE* określa kryteria pól, które musi spełnić rekord, aby został uwzględniony w wynikach
+- *AND* zwraca wynik prawda, gdy wyrażenia po obu stronach operatora są prawdziwe - jeżeli choć jedno z nich jest nieprawdziwe, wtedy całe wyrażenie zwraca jako wynik wartość fałsz
+- *OR* zwraca wynik prawda, gdy jedno z wyrażen po prawej lub po lewej stronie operatora jest prawdziwe - gdy oba wyrażenia są prawdziwe, wynik też przyjmuje wartość prawda
+- *NOT* używamy do zaprzeczenia wartości wyrażenia
+- *IN* określa, czy wartość testowana jest identyczna z przynajmniej jedną z wartości z listy
+- *LIKE* sluży do sprawdzenia, czy wartość należy do podanego zakresu z uwzględnieniem wartości granicznych
+- *BETWEEN* sluży do sprawdzenia, czy wartość należy do podanego zakresu z uwzględnieniem wartości granicznych
+- *IS NULL* wskazuje, że dana nie istnieje w bazie danych
+- *IS NOT NULL* nie pozwala na wprowadzenie wartości NULL w kolumnie
+- *GROUP BY* łączy rekordy o identycznych wartościach pól wymienionych na liście w jeden rekord
+- *JOIN* wykorzystywana do łączenia danych znajdujących się w różnych tabelach
+
+
+### Subtask 2/3
+
+1. 
+
+
