@@ -192,6 +192,7 @@ Lista operatorów/zapytań jakich poznałam:
 Użyte zapytania:
 
 SELECT * FROM actors
+
 ORDER BY surname
 
 
