@@ -191,12 +191,25 @@ Lista operatorów/zapytań jakich poznałam:
 
 Użyte zapytania:
 
-
 SELECT * FROM actors
+
 ORDER BY surname
 
 
 Screenshot prt:
 
+![dareit_sql](https://user-images.githubusercontent.com/56199380/218856740-625f528d-a835-4171-86df-d7afe70f1b95.png)
 
 
+2. _**Wyświetl film, który powstał w 2019 roku.**_
+
+Użyte zapytania:
+
+SELECT * FROM movies
+
+WHERE year_of_production = 2019
+
+
+Screenshot prt:
+
+![dareit_sql_1](https://user-images.githubusercontent.com/56199380/218857298-4e84163a-fd0b-4f6a-8bec-bd42fc7e6cf5.png)
