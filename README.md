@@ -192,7 +192,6 @@ Lista operatorów/zapytań jakich poznałam:
 Użyte zapytania:
 
 SELECT * FROM actors
-
 ORDER BY surname
 
 
@@ -206,7 +205,6 @@ Screenshot prt:
 Użyte zapytania:
 
 SELECT * FROM movies
-
 WHERE year_of_production = 2019
 
 
