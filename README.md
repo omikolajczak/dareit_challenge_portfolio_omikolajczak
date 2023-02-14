@@ -167,7 +167,7 @@ _**Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a n
 
 Lista operatorów/zapytań jakich poznałam:
 
-- *SELECT* zwraca listę pół zawierających wskazane dane
+- **SELECT** zwraca listę pół zawierających wskazane dane
 - *FROM* zwraca listę tabel zawierających pola wymienione w klauzuli SELECT
 - *ORDER BY* jest wykorzystywana do sortowania wyników
 - *ASC* używane do sortowania rosnącego
