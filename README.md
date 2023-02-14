@@ -187,7 +187,7 @@ Lista operatorów/zapytań jakich poznałam:
 
 ### Subtask 2/3
 
-1. _**Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**_
+_**1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**_
 
 Użyte zapytania:
 
@@ -201,14 +201,127 @@ Screenshot prt:
 ![dareit_sql](https://user-images.githubusercontent.com/56199380/218856740-625f528d-a835-4171-86df-d7afe70f1b95.png)
 
 
-2. _**Wyświetl film, który powstał w 2019 roku.**_
+_**2. Wyświetl film, który powstał w 2019 roku.**_
 
 Użyte zapytania:
 
 SELECT * FROM movies
+
 WHERE year_of_production = 2019
 
 
 Screenshot prt:
 
 ![dareit_sql_1](https://user-images.githubusercontent.com/56199380/218857298-4e84163a-fd0b-4f6a-8bec-bd42fc7e6cf5.png)
+
+
+_**3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.**_
+
+Użyte zapytania:
+
+SELECT * FROM movies
+
+WHERE year_of_production BETWEEN 1900 AND 1999
+
+
+Screenshot prt:
+
+![dateit_sql_2](https://user-images.githubusercontent.com/56199380/218858818-2133663d-5c73-457b-87f7-6040cf54a959.png)
+
+
+_**4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.**_
+
+Użyte zapytania:
+
+SELECT title, price FROM movies
+
+WHERE price < 7
+
+
+Screenshot prt:
+
+![dareit_sql_3](https://user-images.githubusercontent.com/56199380/218870628-c47b6d17-1ded-4d07-8389-0511e9844813.png)
+
+
+_**5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.**_
+
+Użyte zapytania:
+
+SELECT * FROM actors
+
+WHERE actor_id >= 4 AND actor_id <=7
+
+
+Screenshot prt:
+
+<img width="233" alt="dareit_sql_4" src="https://user-images.githubusercontent.com/56199380/218871456-412bbe81-0af6-40e0-b50b-9d15c333673e.png">
+
+
+_**6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.**_
+
+Użyte zapytania:
+
+SELECT * FROM customers
+
+WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6
+
+
+Screenshot prt:
+
+<img width="356" alt="dareit_sql_5" src="https://user-images.githubusercontent.com/56199380/218871945-5bb86e1f-18b9-41e1-83fc-c19420cfafc6.png">
+
+
+_**7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.**_
+
+Użyte zapytania:
+
+SELECT * FROM customers
+
+WHERE customer_id IN (1,3,5)
+
+
+Screenshot prt:
+
+<img width="334" alt="dareit_sql_6" src="https://user-images.githubusercontent.com/56199380/218872280-b6cb3992-02d8-495a-ae9d-e626d34a44ee.png">
+
+
+_**8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.**_
+
+Użyte zapytania:
+
+SELECT * FROM actors
+
+WHERE name LIKE 'An%'
+
+
+Screenshot prt:
+
+<img width="209" alt="dareit_sql_7" src="https://user-images.githubusercontent.com/56199380/218872531-4725e7eb-7ebe-4494-b1f9-907d7bbbde37.png">
+
+
+_**9. Wyświetl dane klienta, który nie ma podanego adresu email.**_
+
+Użyte zapytania:
+
+SELECT * FROM customers
+
+WHERE email IS NULL
+
+
+Screenshot prt:
+
+<img width="290" alt="dareit_sql_8" src="https://user-images.githubusercontent.com/56199380/218872866-f05d11e4-fc46-4412-95ab-104704de314c.png">
+
+
+_**10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.**_
+
+Użyte zapytania:
+
+SELECT * FROM movies
+
+WHERE price >9 AND movie_id BETWEEN 2 AND 8
+
+
+Screenshot prt:
+
+<img width="354" alt="dareit_sql_9" src="https://user-images.githubusercontent.com/56199380/218873127-5a09e905-805d-4b5a-9707-499374e0ec2c.png">
