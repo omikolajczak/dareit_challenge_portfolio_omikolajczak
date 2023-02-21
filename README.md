@@ -333,7 +333,7 @@ Screenshot prt:
 ### Subtask 1 - Krótki kurs podstaw SQL
 
 
-📝 **11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd. **
+📝 **11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd.**
 
 💡 **Użyte zapytania:**
 
