@@ -446,7 +446,7 @@ ON movies.movie_id=sale.movie_id;
 
 🖼️ **Screenshot prt:**
 
-![dareit_sql_16](https://user-images.githubusercontent.com/56199380/220300402-ee5872c9-7c64-419e-9e4b-613746acd91f.png
+![dareit_sql_16](https://user-images.githubusercontent.com/56199380/220302078-ad429bf6-7d64-4c29-922e-3232d148e1b8.png)
 
 
 📝 _**17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)**_
