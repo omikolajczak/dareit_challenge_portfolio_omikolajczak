@@ -327,7 +327,7 @@ Screenshot prt:
 <img width="354" alt="dareit_sql_9" src="https://user-images.githubusercontent.com/56199380/218873127-5a09e905-805d-4b5a-9707-499374e0ec2c.png">
 
 
-## Task 6
+## Task 6 SQL part 2
 
 
 ### Subtask 1 - Krótki kurs podstaw SQL
@@ -524,3 +524,4 @@ VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
 
 ![dareit_sql_20](https://user-images.githubusercontent.com/56199380/220293903-16ef384f-bbee-4000-8781-797682e377e7.png)
 
+---
