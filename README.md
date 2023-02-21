@@ -279,7 +279,7 @@ WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6
 
 🖼️ **Screenshot prt:**
 
-![dareit_sql_6](https://user-images.githubusercontent.com/56199380/220363780-01b4a7b8-c671-4621-b476-97add6725acd.png)
+![dareit_sql_6](https://user-images.githubusercontent.com/56199380/220364854-aa20e270-e8b6-427d-a478-cb060981393b.png)
 
 
 📝 **7. Wyświetl klientów o id 1, 3, 5. Wykorzystaj do tego operator IN.**
