@@ -309,7 +309,7 @@ WHERE name LIKE 'An%'
 
 🖼️ **Screenshot prt:**
 
-<img width="209" alt="dareit_sql_7" src="https://user-images.githubusercontent.com/56199380/218872531-4725e7eb-7ebe-4494-b1f9-907d7bbbde37.png">
+![dareit_sql_8](https://user-images.githubusercontent.com/56199380/220366863-ee16b6c0-745f-4a96-9ae4-fae4dd260d8e.png)
 
 
 📝 **9. Wyświetl dane klienta, który nie ma podanego adresu email.**
@@ -324,7 +324,7 @@ WHERE email IS NULL
 
 🖼️ **Screenshot prt:**
 
-<img width="290" alt="dareit_sql_8" src="https://user-images.githubusercontent.com/56199380/218872866-f05d11e4-fc46-4412-95ab-104704de314c.png">
+![dareit_sql_9](https://user-images.githubusercontent.com/56199380/220366897-e0416a3f-f9f6-457f-ba0c-e070ea15fe10.png)
 
 
 📝 **10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich id mieści się pomiędzy 2 i 8.**
@@ -339,7 +339,8 @@ WHERE price >9 AND movie_id BETWEEN 2 AND 8
 
 🖼️ **Screenshot prt:**
 
-<img width="354" alt="dareit_sql_10" src="https://user-images.githubusercontent.com/56199380/220335558-b43f00a3-9fe3-43fe-97d3-5222174f3c00.png">
+![dareit_sql_10](https://user-images.githubusercontent.com/56199380/220366921-aa65f567-97b1-44d8-986a-33eaa818f0bf.png)
+
 
 ---
 
