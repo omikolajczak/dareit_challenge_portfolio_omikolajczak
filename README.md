@@ -525,3 +525,11 @@ VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
 ![dareit_sql_20](https://user-images.githubusercontent.com/56199380/220293903-16ef384f-bbee-4000-8781-797682e377e7.png)
 
 ---
+
+### Subtask 2 - Test
+
+👩🏼‍🏫 Uzyskałam 14/15 punktów z zestawu pytań ECRU na stronie xhttp://getistqb.com/. 
+
+![dareit_wyniktestu](https://user-images.githubusercontent.com/56199380/220329809-8f60b0c9-901b-470b-916b-673db3e8c59f.png)
+
+---
