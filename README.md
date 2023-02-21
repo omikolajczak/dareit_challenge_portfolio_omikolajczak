@@ -325,3 +325,70 @@ WHERE price >9 AND movie_id BETWEEN 2 AND 8
 Screenshot prt:
 
 <img width="354" alt="dareit_sql_9" src="https://user-images.githubusercontent.com/56199380/218873127-5a09e905-805d-4b5a-9707-499374e0ec2c.png">
+
+
+## Task 6
+
+
+### Subtask 1 - Krótki kurs podstaw SQL
+
+
+_**11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈**_
+
+Użyte zapytania:
+
+UPDATE customers
+
+SET surname = "Miler"
+
+WHERE customer_id = 3
+
+
+Screenshot prt:
+
+![dareit_sql_10](https://user-images.githubusercontent.com/56199380/220243269-7b40499e-d46d-4b39-8125-e18709b8b3cc.png)
+
+
+_**11. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.**_
+
+Użyte zapytania:
+
+SELECT customers.name, customers.email
+
+FROM customers
+
+JOIN sale
+
+ON customers.customer_id = sale.customer_id
+
+WHERE sale.movie_id = 4
+
+
+Screenshot prt:
+
+![dareit_sql_11](https://user-images.githubusercontent.com/56199380/220245285-306ad987-d932-4751-927c-1e923db768df.png)
+
+
+_**13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**_
+
+Użyte zapytania:
+
+UPDATE customers
+
+SET email = "pati@mail.com"
+
+WHERE customer_id = 4
+
+
+Screenshot prt:
+
+![dareit_sql_12](https://user-images.githubusercontent.com/56199380/220245549-060f8294-157c-43bf-9ade-fb52d979b3ba.png)
+
+
+_**14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**_
+
+Użyte zapytania:
+
+
+
+
