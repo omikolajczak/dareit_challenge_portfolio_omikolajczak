@@ -465,3 +465,52 @@ _**18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął 
 
 Użyte zapytania:
 
+UPDATE movies
+
+SET price = price + 2.5
+
+WHERE year_of_production > 2000
+
+
+Screenshot prt:
+
+![dareit_sql_17](https://user-images.githubusercontent.com/56199380/220255466-6c8b33b9-6aea-41db-8d01-46239853dd9c.png)
+
+
+_**19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał**_
+
+Użyte zapytania:
+
+SELECT actors.name, actors.surname, movies.title
+
+FROM actors
+
+JOIN cast
+
+ON actors.actor_id=cast.actor_id
+
+JOIN movies
+
+ON movies.movie_id=cast.movie_id
+
+WHERE actors.actor_id = 4;
+
+
+Screenshot prt:
+
+![dareit_sql_18](https://user-images.githubusercontent.com/56199380/220255849-a009ab65-7b7f-475f-97c9-b205cd09661e.png)
+
+
+_**20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa**_
+
+Użyte zapytania:
+
+INSERT INTO customers (customer_id, name, surname, email, pseudonym)
+
+VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
+
+
+Screenshot prt:
+
+![dareit_sql_19](https://user-images.githubusercontent.com/56199380/220256207-0230117c-907d-44b6-9b68-eec80896b10a.png)
+
