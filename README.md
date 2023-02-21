@@ -333,7 +333,7 @@ Screenshot prt:
 ### Subtask 1 - Krótki kurs podstaw SQL
 
 
-📝 _**11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈**_
+📝 **11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd. **
 
 💡 **Użyte zapytania:**
 
@@ -350,7 +350,7 @@ WHERE customer_id = 3
 ![dareit_sql_11](https://user-images.githubusercontent.com/56199380/220301238-aff41520-4f2c-4dff-b6f8-8550b4c609d2.png)
 
 
-📝 _**11. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.**_
+📝 **12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji JOIN sprawdź, jak ma na imię klient i jakiego ma maila.**
 
 💡 **Użyte zapytania:**
 
@@ -371,7 +371,7 @@ WHERE sale.movie_id = 4
 ![dareit_sql_12](https://user-images.githubusercontent.com/56199380/220301091-eb3cceab-0ce3-4f62-9899-7e5ed8146d21.png)
 
 
-📝 _**13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**_
+📝 **13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com.**
 
 💡 **Użyte zapytania:**
 
@@ -388,7 +388,7 @@ WHERE customer_id = 4
 ![dareit_sql_13](https://user-images.githubusercontent.com/56199380/220300937-7cc18360-9422-450f-af08-4de186014120.png)
 
 
-📝 _**14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**_
+📝 **14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję INNER JOIN, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**
 
 💡 **Użyte zapytania:**
 
@@ -411,7 +411,7 @@ ON sale.movie_id = movies.movie_id
 ![dareit_sql_14](https://user-images.githubusercontent.com/56199380/220300771-f5653e8a-27a1-42f9-b86a-a8a746f91943.png)
 
 
-📝 _**15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag**_
+📝 **15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer. Następnie wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag.**
 
 💡 **Użyte zapytania:**
 
@@ -430,7 +430,7 @@ SET pseudonym = (SELECT CONCAT(LEFT (name,2), RIGHT(surname,1)))
 ![dareit_sql_15](https://user-images.githubusercontent.com/56199380/220300615-c5095c0b-052b-4f66-a8df-0d8d630da262.png)
 
 
-📝 _**16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**_
+📝 **16. Wyświetl tytuły filmów, które zostały zakupione. Wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**
 
 💡 **Użyte zapytania:**
 
@@ -449,7 +449,7 @@ ON movies.movie_id=sale.movie_id;
 ![dareit_sql_16](https://user-images.githubusercontent.com/56199380/220302078-ad429bf6-7d64-4c29-922e-3232d148e1b8.png)
 
 
-📝 _**17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)**_
+📝 **17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION).**
 
 💡 **Użyte zapytania:**
 
@@ -468,7 +468,7 @@ ORDER BY name
 ![dareit_sql_17](https://user-images.githubusercontent.com/56199380/220295237-49a0ad11-54c2-4d3b-a325-f0ff4dfae52c.png)
 
 
-📝 _**18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).**_
+📝 **18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $.**
 
 💡 **Użyte zapytania:**
 
@@ -485,7 +485,7 @@ WHERE year_of_production > 2000
 ![dareit_sql_18](https://user-images.githubusercontent.com/56199380/220295021-8c0ee4bd-17da-40dd-95c5-f4d3fa7066ac.png)
 
 
-📝 _**19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał**_
+📝 **19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.**
 
 💡 **Użyte zapytania:**
 
@@ -510,7 +510,7 @@ WHERE actors.actor_id = 4;
 ![dareit_sql_19](https://user-images.githubusercontent.com/56199380/220294004-e968a631-a98a-4c1c-9d67-a623bffd7ee4.png)
 
 
-📝 _**20. Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.**_
+📝 **20. Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.**
 
 💡 **Użyte zapytania:**
 
