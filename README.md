@@ -501,16 +501,16 @@ Screenshot prt:
 ![dareit_sql_18](https://user-images.githubusercontent.com/56199380/220255849-a009ab65-7b7f-475f-97c9-b205cd09661e.png)
 
 
-_**20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa**_
+📝 _**20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa**_
 
-Użyte zapytania:
+💡 Użyte zapytania:
 
 INSERT INTO customers (customer_id, name, surname, email, pseudonym)
 
 VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
 
 
-Screenshot prt:
+🖼️ Screenshot prt:
 
 ![dareit_sql_19](https://user-images.githubusercontent.com/56199380/220256207-0230117c-907d-44b6-9b68-eec80896b10a.png)
 
