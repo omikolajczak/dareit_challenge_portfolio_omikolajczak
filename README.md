@@ -333,26 +333,28 @@ Screenshot prt:
 ### Subtask 1 - Krótki kurs podstaw SQL
 
 
-_**11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈**_
+📝 _**11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈**_
 
-Użyte zapytania:
+💡 **Użyte zapytania:**
 
+```sql
 UPDATE customers
 
 SET surname = "Miler"
 
 WHERE customer_id = 3
+```
+
+🖼️ **Screenshot prt:**
+
+![dareit_sql_11](https://user-images.githubusercontent.com/56199380/220301238-aff41520-4f2c-4dff-b6f8-8550b4c609d2.png)
 
 
-Screenshot prt:
+📝 _**11. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.**_
 
-![dareit_sql_10](https://user-images.githubusercontent.com/56199380/220243269-7b40499e-d46d-4b39-8125-e18709b8b3cc.png)
+💡 **Użyte zapytania:**
 
-
-_**11. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.**_
-
-Użyte zapytania:
-
+```sql
 SELECT customers.name, customers.email
 
 FROM customers
@@ -362,33 +364,35 @@ JOIN sale
 ON customers.customer_id = sale.customer_id
 
 WHERE sale.movie_id = 4
+```
+
+🖼️ **Screenshot prt:**
+
+![dareit_sql_12](https://user-images.githubusercontent.com/56199380/220301091-eb3cceab-0ce3-4f62-9899-7e5ed8146d21.png)
 
 
-Screenshot prt:
+📝 _**13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**_
 
-![dareit_sql_11](https://user-images.githubusercontent.com/56199380/220245285-306ad987-d932-4751-927c-1e923db768df.png)
+💡 **Użyte zapytania:**
 
-
-_**13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**_
-
-Użyte zapytania:
-
+```sql
 UPDATE customers
 
 SET email = "pati@mail.com"
 
 WHERE customer_id = 4
+```
+
+🖼️ **Screenshot prt:**
+
+![dareit_sql_13](https://user-images.githubusercontent.com/56199380/220300937-7cc18360-9422-450f-af08-4de186014120.png)
 
 
-Screenshot prt:
+📝 _**14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**_
 
-![dareit_sql_12](https://user-images.githubusercontent.com/56199380/220245549-060f8294-157c-43bf-9ade-fb52d979b3ba.png)
+💡 **Użyte zapytania:**
 
-
-_**14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**_
-
-Użyte zapytania:
-
+```sql
 SELECT customers.name, customers.surname, movies.title
 
 FROM customers
@@ -400,17 +404,18 @@ ON customers.customer_id = sale.customer_id
 INNER JOIN movies
 
 ON sale.movie_id = movies.movie_id
+```
+
+🖼️ **Screenshot prt:**
+
+![dareit_sql_14](https://user-images.githubusercontent.com/56199380/220300771-f5653e8a-27a1-42f9-b86a-a8a746f91943.png)
 
 
-Screenshot prt:
+📝 _**15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag**_
 
-![dareit_sql_13](https://user-images.githubusercontent.com/56199380/220247778-78f0e2dc-37c8-4f6d-b9b3-3516b1de3157.png)
+💡 **Użyte zapytania:**
 
-
-_**15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag**_
-
-Użyte zapytania:
-
+```sql
 ALTER TABLE customers
 
 ADD pseudonym VARCHAR (3);
@@ -418,17 +423,18 @@ ADD pseudonym VARCHAR (3);
 UPDATE customers 
 
 SET pseudonym = (SELECT CONCAT(LEFT (name,2), RIGHT(surname,1)))
+```
+
+🖼️ **Screenshot prt:**
+
+![dareit_sql_15](https://user-images.githubusercontent.com/56199380/220300615-c5095c0b-052b-4f66-a8df-0d8d630da262.png)
 
 
-Screenshot prt:
+📝 _**16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**_
 
-![dareit_sql_14](https://user-images.githubusercontent.com/56199380/220253877-2013165c-2337-4e32-895f-fca865a23157.png)
+💡 **Użyte zapytania:**
 
-
-_**16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**_
-
-Użyte zapytania:
-
+```sql
 SELECT DISTINCT movies.title
 
 FROM movies
@@ -436,17 +442,18 @@ FROM movies
 JOIN sale
 
 ON movies.movie_id=sale.movie_id;
+```
+
+🖼️ **Screenshot prt:**
+
+![dareit_sql_16](https://user-images.githubusercontent.com/56199380/220300402-ee5872c9-7c64-419e-9e4b-613746acd91f.png
 
 
-Screenshot prt:
+📝 _**17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)**_
 
-![dareit_sql_15](https://user-images.githubusercontent.com/56199380/220254247-9c649db1-15c2-47c9-b350-54841261a339.png)
+💡 **Użyte zapytania:**
 
-
-_**17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)**_
-
-Użyte zapytania:
-
+```sql
 SELECT name FROM actors
 
 UNION
@@ -454,33 +461,35 @@ UNION
 SELECT name FROM customers
 
 ORDER BY name
+```
+
+🖼️ **Screenshot prt:**
+
+![dareit_sql_17](https://user-images.githubusercontent.com/56199380/220295237-49a0ad11-54c2-4d3b-a325-f0ff4dfae52c.png)
 
 
-Screenshot prt:
+📝 _**18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).**_
 
-![dareit_sql_16](https://user-images.githubusercontent.com/56199380/220254746-c28c64ee-3c6f-44d9-948f-fb699723a3e0.png)
+💡 **Użyte zapytania:**
 
-
-_**18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).**_
-
-Użyte zapytania:
-
+```sql
 UPDATE movies
 
 SET price = price + 2.5
 
 WHERE year_of_production > 2000
+```
+
+🖼️ **Screenshot prt:**
+
+![dareit_sql_18](https://user-images.githubusercontent.com/56199380/220295021-8c0ee4bd-17da-40dd-95c5-f4d3fa7066ac.png)
 
 
-Screenshot prt:
+📝 _**19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał**_
 
-![dareit_sql_17](https://user-images.githubusercontent.com/56199380/220255466-6c8b33b9-6aea-41db-8d01-46239853dd9c.png)
+💡 **Użyte zapytania:**
 
-
-_**19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał**_
-
-Użyte zapytania:
-
+```sql
 SELECT actors.name, actors.surname, movies.title
 
 FROM actors
@@ -494,11 +503,11 @@ JOIN movies
 ON movies.movie_id=cast.movie_id
 
 WHERE actors.actor_id = 4;
+```
 
+🖼️ **Screenshot prt:**
 
-Screenshot prt:
-
-![dareit_sql_18](https://user-images.githubusercontent.com/56199380/220255849-a009ab65-7b7f-475f-97c9-b205cd09661e.png)
+![dareit_sql_19](https://user-images.githubusercontent.com/56199380/220294004-e968a631-a98a-4c1c-9d67-a623bffd7ee4.png)
 
 
 📝 _**20. Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.**_
@@ -513,5 +522,5 @@ VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
 
 🖼️ **Screenshot prt:**
 
-![dareit_sql_19](https://user-images.githubusercontent.com/56199380/220256207-0230117c-907d-44b6-9b68-eec80896b10a.png)
+![dareit_sql_20](https://user-images.githubusercontent.com/56199380/220293903-16ef384f-bbee-4000-8781-797682e377e7.png)
 
