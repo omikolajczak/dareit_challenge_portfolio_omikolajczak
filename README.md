@@ -110,41 +110,41 @@ Link: https://docs.google.com/spreadsheets/d/1o7X_KxkY8e-0W8gAdOaPO_RpuuSmBZepUl
 ### Subtask 3
 Link: https://docs.google.com/spreadsheets/d/1oicgMEF2GVj3EaSkblde6prYIbHwb0Os3lnzq6vpPZM/edit?usp=sharing
 
+---
 
-## Task 4
+## Task 4: Testowanie aplikacji mobilnej [Focusly](https://focusly.co/)
 
 
-### Subtask 1
+### Subtask 1 - Utworzenie formatki do zgłaszania błędów systemu
+
 Link: https://docs.google.com/spreadsheets/d/1FntW_EOexcr0Gf-0sP7NCZb7lBPrxjSey-bGCmA46TE/edit?usp=sharing
 
+---
 
-### Subtask 2
+### Subtask 2 - Testowanie eksploracyjne i raportowanie błędów
+
 Link: https://docs.google.com/spreadsheets/d/13SQTfePuOpjRnRd07Ko9EYmtvUPfGgLDwI1vPJw4jEI/edit?usp=sharing
 
+---
 
-### Subtask 3
-
+### Subtask 3 - Do czego służy ta aplikacja?
 
 _**Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?**_
-
 
 Aplikacja służy do prowadzenia medytacji, afirmacji oraz relaksacji. Jest możliwość kontrolowania oddechu aby zrelaksować się przed snem, wyciszyć, czy skoncentrować. Możliwe jest również zaczęcie kursu z dziedzin takich jak: uważność, medytacja czy kursy dotyczące oddechu. Applikacja zawiera artykuły oraz porady jak na przykład radzić sobie ze stresem, jak poprawić i przyjrzeć się swojemu oddechowi. Aplikacja ma na celu pomóc ludziom zwiększyć swoją świadomość oraz pomóc radzić sobie ze stresem.
 
 
 _**Kto ma być użytkownikiem końcowym aplikacji?**_
 
-
 Użytkownikiem końcowym jest osoba, która chce pracować nad oddechem, jest zainteresowana medytacją, odczuwa potrzebę polepszenia swojego samopoczucia oraz chcę doszkalać się oraz poszerzać swoją wiedzę w dziedzinie dbania o siebie i swoje zdrowie psychiczne. Jest to aplikacja dla osób na każdym poziomie zaawansowania.
 
 
 _**Czy według Ciebie aplikacja jest user friendly?**_
 
-
 Aplikacja jest przyjazna użytkownikowi. W aplikacji wystepują poradniki, które pomagają użytkownikowi poznać aplikację oraz tłumaczy jak ją najlepiej wykorzystać do własnych celów. Użytkownik nie powinnien odczywać żadnych trudności przy kolejnych wejściach do aplikacji, dzięki dobrze opisanym button'om, przejrzystemu interfejsowi oraz spójnemu design.
 
 
 _**Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?**_
-
 
 - Dodałabym możliwość logowania się za pomocą konto Google.
 - Dodałabym możliowść wyszukiwania soudtrack'ów.
@@ -154,7 +154,6 @@ _**Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pom
 
 
 _**Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?**_
-
 
 - Przy testowaniu aplikacji natywnych jest możliwość przetestowania aplikacji na większej ilości urządzeń. Można testować nie tylko na telefonie, ale również na tablecie z podziałem na systemu.
 - W przypadku testowania aplikacji internetowej ważny jest adres strony. Przy tesotwaniu aplikacji natywnej ważny jest pobranie aplikacji oraz numer Build.
@@ -189,7 +188,7 @@ _**Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a n
 
 ---
 
-### Subtask 3 - Kilka zadań na rozgrzewkę
+### Subtask 3 - Kilka zadań na rozgrzewkę z SQL
 
 📝 **1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
 
