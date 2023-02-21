@@ -159,11 +159,13 @@ _**Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a n
 - W przypadku testowania aplikacji internetowej ważny jest adres strony. Przy tesotwaniu aplikacji natywnej ważny jest pobranie aplikacji oraz numer Build.
 - Po aplikacji internetowej poruszamy się za pomocą myszki czy trackpada. Po aplikacji natywnej poruszamy się palcem.
 
+---
 
-## Task 5
+## Task 5: SQL part 1
 
 
-### Subtask 1
+### Subtask 1 - Krótki kurs podstaw SQL
+
 
 Lista operatorów/zapytań jakich poznałam:
 
@@ -184,150 +186,164 @@ Lista operatorów/zapytań jakich poznałam:
 - **GROUP BY** łączy rekordy o identycznych wartościach pól wymienionych na liście w jeden rekord
 - **JOIN** wykorzystywana do łączenia danych znajdujących się w różnych tabelach
 
+---
 
-### Subtask 2/3
+### Subtask 3 - Kilka zadań na rozgrzewkę
 
-_**1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**_
+📝 **1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
 
-Użyte zapytania:
+💡 **Użyte zapytania:**
 
+```sql
 SELECT * FROM actors
 
 ORDER BY surname
+```
+
+🖼️ **Screenshot prt:**
+
+![dareit_sql_1](https://user-images.githubusercontent.com/56199380/220362822-4c22fa04-01e9-4f58-b451-8232308f9365.png)
 
 
-Screenshot prt:
+📝 **2. Wyświetl film, który powstał w 2019 roku.**
 
-![dareit_sql](https://user-images.githubusercontent.com/56199380/218856740-625f528d-a835-4171-86df-d7afe70f1b95.png)
+💡 **Użyte zapytania:**
 
-
-_**2. Wyświetl film, który powstał w 2019 roku.**_
-
-Użyte zapytania:
-
+```sql
 SELECT * FROM movies
 
 WHERE year_of_production = 2019
+```
+
+🖼️ **Screenshot prt:**
+
+![dareit_sql_2](https://user-images.githubusercontent.com/56199380/220362856-3eb10544-a18b-46ed-878f-67b240614bef.png)
 
 
-Screenshot prt:
+📝 **3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.**
 
-![dareit_sql_1](https://user-images.githubusercontent.com/56199380/218857298-4e84163a-fd0b-4f6a-8bec-bd42fc7e6cf5.png)
+💡 **Użyte zapytania:**
 
-
-_**3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.**_
-
-Użyte zapytania:
-
+```sql
 SELECT * FROM movies
 
 WHERE year_of_production BETWEEN 1900 AND 1999
+```
+
+🖼️ **Screenshot prt:**
+
+![dareit_sql_3](https://user-images.githubusercontent.com/56199380/220362888-4702c08e-74d3-4ee8-8790-d8f619adaa02.png)
 
 
-Screenshot prt:
+📝 **4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.**
 
-![dateit_sql_2](https://user-images.githubusercontent.com/56199380/218858818-2133663d-5c73-457b-87f7-6040cf54a959.png)
+💡 **Użyte zapytania:**
 
+```sql
+SELECT title, price 
 
-_**4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.**_
-
-Użyte zapytania:
-
-SELECT title, price FROM movies
+FROM movies
 
 WHERE price < 7
+```
+
+🖼️ **Screenshot prt:**
+
+![dareit_sql_4](https://user-images.githubusercontent.com/56199380/220362941-981ba081-e31d-47d9-9111-1a3661eb0ea6.png)
 
 
-Screenshot prt:
+📝 **5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.**
 
-![dareit_sql_3](https://user-images.githubusercontent.com/56199380/218870628-c47b6d17-1ded-4d07-8389-0511e9844813.png)
+💡 **Użyte zapytania:**
 
-
-_**5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.**_
-
-Użyte zapytania:
-
+```sql
 SELECT * FROM actors
 
 WHERE actor_id >= 4 AND actor_id <=7
+```
+
+🖼️ **Screenshot prt:**
+
+![dareit_sql_5](https://user-images.githubusercontent.com/56199380/220363298-d401a243-91ca-42a3-b9ca-039484d9cc75.png)
 
 
-Screenshot prt:
+📝 **6. Wyświetl klientów o id 2, 4, 6. Wykorzystaj do tego warunek logiczny.**_
 
-<img width="233" alt="dareit_sql_4" src="https://user-images.githubusercontent.com/56199380/218871456-412bbe81-0af6-40e0-b50b-9d15c333673e.png">
+💡 **Użyte zapytania:**
 
-
-_**6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.**_
-
-Użyte zapytania:
-
+```sql
 SELECT * FROM customers
 
 WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6
+```
+
+🖼️ **Screenshot prt:**
+
+![dareit_sql_6](https://user-images.githubusercontent.com/56199380/220363780-01b4a7b8-c671-4621-b476-97add6725acd.png)
 
 
-Screenshot prt:
+📝 **7. Wyświetl klientów o id 1, 3, 5. Wykorzystaj do tego operator IN.**
 
-<img width="356" alt="dareit_sql_5" src="https://user-images.githubusercontent.com/56199380/218871945-5bb86e1f-18b9-41e1-83fc-c19420cfafc6.png">
+💡 **Użyte zapytania:**
 
-
-_**7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.**_
-
-Użyte zapytania:
-
+```sql
 SELECT * FROM customers
 
 WHERE customer_id IN (1,3,5)
+```
+
+🖼️ **Screenshot prt:**
+
+![dareit_sql_7](https://user-images.githubusercontent.com/56199380/220363971-bf0f04ee-a528-4533-864a-8f5ac404816e.png)
 
 
-Screenshot prt:
+📝 **8. Wyświetl dane wszystkich osób z tabeli actors, których imię zaczyna się od ciągu “An”.**
 
-<img width="334" alt="dareit_sql_6" src="https://user-images.githubusercontent.com/56199380/218872280-b6cb3992-02d8-495a-ae9d-e626d34a44ee.png">
+💡 **Użyte zapytania:**
 
-
-_**8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.**_
-
-Użyte zapytania:
-
+```sql
 SELECT * FROM actors
 
 WHERE name LIKE 'An%'
+```
 
-
-Screenshot prt:
+🖼️ **Screenshot prt:**
 
 <img width="209" alt="dareit_sql_7" src="https://user-images.githubusercontent.com/56199380/218872531-4725e7eb-7ebe-4494-b1f9-907d7bbbde37.png">
 
 
-_**9. Wyświetl dane klienta, który nie ma podanego adresu email.**_
+📝 **9. Wyświetl dane klienta, który nie ma podanego adresu email.**
 
-Użyte zapytania:
+💡 **Użyte zapytania:**
 
+```sql
 SELECT * FROM customers
 
 WHERE email IS NULL
+```
 
-
-Screenshot prt:
+🖼️ **Screenshot prt:**
 
 <img width="290" alt="dareit_sql_8" src="https://user-images.githubusercontent.com/56199380/218872866-f05d11e4-fc46-4412-95ab-104704de314c.png">
 
 
-_**10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.**_
+📝 **10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich id mieści się pomiędzy 2 i 8.**
 
-Użyte zapytania:
+💡 **Użyte zapytania:**
 
+```sql
 SELECT * FROM movies
 
 WHERE price >9 AND movie_id BETWEEN 2 AND 8
+```
 
+🖼️ **Screenshot prt:**
 
-Screenshot prt:
+<img width="354" alt="dareit_sql_10" src="https://user-images.githubusercontent.com/56199380/220335558-b43f00a3-9fe3-43fe-97d3-5222174f3c00.png">
 
-<img width="354" alt="dareit_sql_9" src="https://user-images.githubusercontent.com/56199380/218873127-5a09e905-805d-4b5a-9707-499374e0ec2c.png">
+---
 
-
-## Task 6 SQL part 2
+## Task 6: SQL part 2
 
 
 ### Subtask 1 - Krótki kurs podstaw SQL
@@ -531,5 +547,11 @@ VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
 👩🏼‍🏫 Uzyskałam 14/15 punktów z zestawu pytań ECRU na stronie http://getistqb.com/. 
 
 ![dareit_wyniktestu](https://user-images.githubusercontent.com/56199380/220329809-8f60b0c9-901b-470b-916b-673db3e8c59f.png)
+
+---
+
+### Subtask 3 - Tworzymy portfolio
+
+
 
 ---
