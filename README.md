@@ -294,7 +294,7 @@ WHERE customer_id IN (1,3,5)
 
 🖼️ **Screenshot prt:**
 
-![dareit_sql_7](https://user-images.githubusercontent.com/56199380/220363971-bf0f04ee-a528-4533-864a-8f5ac404816e.png)
+![dareit_sql_7](https://user-images.githubusercontent.com/56199380/220366071-f4054e58-1277-4f09-bb3c-df72a63e1153.png)
 
 
 📝 **8. Wyświetl dane wszystkich osób z tabeli actors, których imię zaczyna się od ciągu “An”.**
