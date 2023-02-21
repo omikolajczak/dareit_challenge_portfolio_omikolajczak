@@ -389,6 +389,79 @@ _**14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał 
 
 Użyte zapytania:
 
+SELECT customers.name, customers.surname, movies.title
+
+FROM customers
+
+INNER JOIN sale
+
+ON customers.customer_id = sale.customer_id
+
+INNER JOIN movies
+
+ON sale.movie_id = movies.movie_id
 
 
+Screenshot prt:
+
+![dareit_sql_13](https://user-images.githubusercontent.com/56199380/220247778-78f0e2dc-37c8-4f6d-b9b3-3516b1de3157.png)
+
+
+_**15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag**_
+
+Użyte zapytania:
+
+ALTER TABLE customers
+
+ADD pseudonym VARCHAR (3);
+
+UPDATE customers 
+
+SET pseudonym = (SELECT CONCAT(LEFT (name,2), RIGHT(surname,1)))
+
+
+Screenshot prt:
+
+![dareit_sql_14](https://user-images.githubusercontent.com/56199380/220253877-2013165c-2337-4e32-895f-fca865a23157.png)
+
+
+_**16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**_
+
+Użyte zapytania:
+
+SELECT DISTINCT movies.title
+
+FROM movies
+
+JOIN sale
+
+ON movies.movie_id=sale.movie_id;
+
+
+Screenshot prt:
+
+![dareit_sql_15](https://user-images.githubusercontent.com/56199380/220254247-9c649db1-15c2-47c9-b350-54841261a339.png)
+
+
+_**17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)**_
+
+Użyte zapytania:
+
+SELECT name FROM actors
+
+UNION
+
+SELECT name FROM customers
+
+ORDER BY name
+
+
+Screenshot prt:
+
+![dareit_sql_16](https://user-images.githubusercontent.com/56199380/220254746-c28c64ee-3c6f-44d9-948f-fb699723a3e0.png)
+
+
+_**18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).**_
+
+Użyte zapytania:
 
