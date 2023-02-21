@@ -1,18 +1,20 @@
 # dareit_challenge_portfolio_omikolajczak
 
 
-## Task 1
+## Task 1: Testy eksploracyjne
 
 
-### Subtask 1
-Podczas testu udało mi się uzyskać 8 punktów 🤔📚
+### Subtask 1 - Wyciągamy karteczki…
 
-Edit: Jest to moje drugie podejście do Challeng'u i za drugim razem uzyskałam 10 punktów 😎
+👩🏼‍🏫 Podczas [egzaminu](https://docs.google.com/forms/d/15-pQoZ1t2wG5sz2KdrX1RlhCrJkGDw-ZF3XSoGhNvcQ) stworzonego przez DareIT udało mi się uzyskać 8 punktów na 10 możliwych.
+
+✏️ Edit: Jest to moje drugie podejście do Challeng'u i za drugim razem uzyskałam 10 punktów! 😎
 
 ---
 
-### Subtask 3
-Dlaczego zdecydował_ś się na udział w challenge portfolio?
+### Subtask 3 - Formatowanie README file w GitHub
+
+📝 **Dlaczego zdecydował_ś się na udział w challenge portfolio?**
 
 Cześć 🤍 
 
@@ -24,18 +26,17 @@ Zdecydowałam się na kurs DareIT, ponieważ od dłuższego czasu mogę nazwać 
 
 ---
 
-### Subtask 4
+### Subtask 4 - Testy eksploracyjne – poznaj aplikację
 
-_**Na czym polega ta aplikacja? Do czego służy?**_
+📝 **Na czym polega [aplikacja Scouts](https://scouts-test.futbolkolektyw.pl/pl)? Do czego służy?**
 
 Aplikacja **Scouts** umożliwa:
   * przeglądanie wskaźników, umiejętności i pozycji graczy
   * zarządzanie graczami oraz meczami 
   * tworzenie i zarządzanie raportami.
 
-**------------------------------------------------**
 
-_**Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a?**_
+📝 **Jakie funkcjonalności znajdują się w aplikacji? Do czego służą? Czy są intuicyjne, czy może byś coś zmienił_a?**
 
 Funkcjonalności aplikacji:
   * logowanie oraz wylogowywanie do/z aplikacji 
