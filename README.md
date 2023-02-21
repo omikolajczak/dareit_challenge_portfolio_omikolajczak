@@ -505,10 +505,11 @@ Screenshot prt:
 
 💡 **Użyte zapytania:**
 
+```sql
 INSERT INTO customers (customer_id, name, surname, email, pseudonym)
 
 VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
-
+```
 
 🖼️ **Screenshot prt:**
 
