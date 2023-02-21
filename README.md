@@ -167,24 +167,24 @@ _**Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a n
 ### Subtask 1 - Krótki kurs podstaw SQL
 
 
-Lista operatorów/zapytań jakich poznałam:
+📝 **Przedstawiam poniżej listę operatorów/zapytań, które poznałam w trakcie kursów https://www.kursysql.pl/szkolenie-sql-w-120-minut/ oraz https://www.w3schools.com/sql/:**
 
-- **SELECT** zwraca listę pół zawierających wskazane dane
-- **FROM** zwraca listę tabel zawierających pola wymienione w klauzuli SELECT
-- **ORDER BY** jest wykorzystywana do sortowania wyników
-- **ASC** używane do sortowania rosnącego
-- **DESC** używane do sortowania malejacego
-- **WHERE** określa kryteria pól, które musi spełnić rekord, aby został uwzględniony w wynikach
-- **AND** zwraca wynik prawda, gdy wyrażenia po obu stronach operatora są prawdziwe - jeżeli choć jedno z nich jest nieprawdziwe, wtedy całe wyrażenie zwraca jako wynik wartość fałsz
-- **OR** zwraca wynik prawda, gdy jedno z wyrażen po prawej lub po lewej stronie operatora jest prawdziwe - gdy oba wyrażenia są prawdziwe, wynik też przyjmuje wartość prawda
-- **NOT** używamy do zaprzeczenia wartości wyrażenia
-- **IN** określa, czy wartość testowana jest identyczna z przynajmniej jedną z wartości z listy
-- **LIKE** sluży do sprawdzenia, czy wartość należy do podanego zakresu z uwzględnieniem wartości granicznych
-- **BETWEEN** sluży do sprawdzenia, czy wartość należy do podanego zakresu z uwzględnieniem wartości granicznych
-- **IS NULL** wskazuje, że dana nie istnieje w bazie danych
-- **IS NOT NULL** nie pozwala na wprowadzenie wartości NULL w kolumnie
-- **GROUP BY** łączy rekordy o identycznych wartościach pól wymienionych na liście w jeden rekord
-- **JOIN** wykorzystywana do łączenia danych znajdujących się w różnych tabelach
+- **```SELECT```** zwraca listę pól zawierających wskazane dane
+- **```FROM```** zwraca listę tabel zawierających pola wymienione w klauzuli SELECT
+- **```ORDER BY```** jest wykorzystywane do sortowania wyników
+- **```ASC```** używane do sortowania rosnącego
+- **```DESC```** używane do sortowania malejacego
+- **```WHERE```** określa kryteria pól, które musi spełnić rekord, aby został uwzględniony w wynikach
+- **```AND```** zwraca wynik prawda, gdy wyrażenia po obu stronach operatora są prawdziwe - jeżeli choć jedno z nich jest nieprawdziwe, wtedy całe wyrażenie zwraca jako wynik wartość fałsz
+- **```OR```** zwraca wynik prawda, gdy jedno z wyrażen po prawej lub po lewej stronie operatora jest prawdziwe - gdy oba wyrażenia są prawdziwe, wynik też przyjmuje wartość prawda
+- **```NOT```** używane do zaprzeczenia wartości wyrażenia
+- **```IN```** określa, czy wartość testowana jest identyczna z przynajmniej jedną z wartości z listy
+- **```LIKE```** służy do sprawdzenia, czy wartość należy do podanego zakresu z uwzględnieniem wartości granicznych
+- **```BETWEEN```** służy do sprawdzenia, czy wartość należy do podanego zakresu z uwzględnieniem wartości granicznych
+- **```IS NULL```** wskazuje, że dana nie istnieje w bazie danych
+- **```IS NOT NULL```** nie pozwala na wprowadzenie wartości NULL w kolumnie
+- **```GROUP BY```** łączy rekordy o identycznych wartościach pól wymienionych na liście w jeden rekord
+- **```JOIN```** wykorzystywane do łączenia danych znajdujących się w różnych tabelach.
 
 ---
 
